@@ -17,6 +17,7 @@
     height: 100%;
     inset: 0;
     opacity: 0;
+    cursor: pointer;
   }
 
   & p {
@@ -24,6 +25,7 @@
   }
 
   &:hover, &:has(input:focus) {
+    cursor: pointer;
     border-width: 2px;
     border-color: var(--stroke-highlight);
     background-color: var(--surface-secondary);
