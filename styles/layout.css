@@ -8,6 +8,16 @@
 
 main {
   overflow: auto;
+  &::-webkit-scrollbar{
+    width: .5rem;
+    background-color: var(--surface-disabled);
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #F3541C;
+  }
+
   padding: 4rem;
 
   & .main-container {
